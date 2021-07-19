@@ -1,0 +1,11 @@
+<button (click)="increment()">Incrementer</button> 
+<button (click)="decrement()" >Decrementer</button> 
+
+<br><br>
+
+value:<span style="font-size: 20px;" >{{count}} </span> <br> <br>
+
+ <!-- <input type="text" [value]="count" (keyup)="update(localvar.value)" #localvar> <br><br>  2 way binding -->
+
+ Enter : <input type="number" [(ngModel)]="count"> <!--Simple Way for 2 Way Data Binding-->
+
